@@ -198,7 +198,7 @@ Rectangle {
         anchors.fill: parent
         color: "transparent"
 
-        Clock {
+        GoodClock {
             id: clock
             y: parent.height * config.relativePositionY - clock.height / 2
             x: parent.width * config.relativePositionX - clock.width / 2
