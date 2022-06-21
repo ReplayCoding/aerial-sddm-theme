@@ -56,7 +56,6 @@ Rectangle {
         playlist: Playlist {
             id: playlist1
             playbackMode: Playlist.Random
-            onLoaded: { mediaplayer1.play() }
         }
     }
 
