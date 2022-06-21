@@ -42,12 +42,12 @@ Rectangle {
     }
 
     // Set Background Image
-    Image {
-        id: image1
-        anchors.fill: parent
-        //source: config.background
-        fillMode: Image.PreserveAspectCrop
-    }
+    /* Image { */
+    /*     id: image1 */
+    /*     anchors.fill: parent */
+    /*     //source: config.background */
+    /*     fillMode: Image.PreserveAspectCrop */
+    /* } */
 
     // Set Background Video1
     MediaPlayer {
