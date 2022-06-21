@@ -508,11 +508,11 @@ Rectangle {
         if ( time >= 5 && time <= 17 ) {
             playlist1.load(Qt.resolvedUrl(config.background_vid_day), 'm3u')
             playlist2.load(Qt.resolvedUrl(config.background_vid_day), 'm3u')
-            image1.source = config.background_img_day
+            /* image1.source = config.background_img_day */
         } else {
             playlist1.load(Qt.resolvedUrl(config.background_vid_night), 'm3u')
             playlist2.load(Qt.resolvedUrl(config.background_vid_night), 'm3u')
-            image1.source = config.background_img_night
+            /* image1.source = config.background_img_night */
         }
 
         for (var k = 0; k < Math.ceil(Math.random() * 10) ; k++) {
